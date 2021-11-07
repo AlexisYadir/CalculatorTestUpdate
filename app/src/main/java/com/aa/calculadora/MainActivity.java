@@ -27,7 +27,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 //.setUpdateFrom(UpdateFrom.GITHUB)
                 //.setGitHubUserAndRepo("AlexisYadir", "CalculatorTestUpdate")
                 .setUpdateFrom(UpdateFrom.JSON)
-                .setUpdateJSON("https://raw.githubusercontent.com/AlexisYadir/CalculatorTestUpdate/master/app/update-changelog.json")
+                .setUpdateJSON("https://pastebin.com/raw/fSQKWcwb")
                 .start();
         textOperation = findViewById(R.id.textOperation);
         textANS = findViewById(R.id.textANS);
