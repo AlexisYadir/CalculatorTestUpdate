@@ -23,6 +23,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.main_activity);
         new AppUpdater(this)
                 .setDisplay(Display.DIALOG)
+                .setDisplay(Display.NOTIFICATION)
                 .setUpdateFrom(UpdateFrom.GITHUB)
                 .setGitHubUserAndRepo("AlexisYadir", "CalculatorTestUpdate")
                 .start();
