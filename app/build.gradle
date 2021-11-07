@@ -9,8 +9,8 @@ android {
         applicationId "com.aa.calculadora"
         minSdk 23
         targetSdk 31
-        versionCode 4
-        versionName "v0.4-alpha"
+        versionCode 5
+        versionName "v0.5-alpha"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
